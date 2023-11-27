@@ -1,0 +1,102 @@
+/* .box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+
+#box1 {
+  background-color: green;
+}
+
+#box2 {
+  background-color: red;
+}
+
+#box3 {
+  background-color: purple;
+}
+
+#box4 {
+  background-color: orange;
+} */
+
+#box1,
+#box2,
+#box3,
+#box4 {
+  background-color: cadetblue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  background-color: green;
+}
+
+/* 
+    tagName -> 1
+    className -> 10
+    id -> 100 
+    inline -> 1000
+*/
+
+/* .birinci {
+  background-color: red;
+  width: 21mm;
+  width: 2.54cm;
+  padding: 20px;
+  margin: auto;
+}
+
+.ikinci {   
+  background-color: rebeccapurple;
+  padding: 20px;
+  margin: auto;
+  width: 96px;
+}
+
+.ucuncu {
+  background-color: green;
+  margin: auto;
+  padding: 20px;
+  width: 1in;
+}
+
+.dorduncu {
+  background-color: orange;
+  margin: auto;
+  padding: 20px;
+  width: 25.4mm;
+} */
+
+.div {
+  margin: auto;
+  padding: 20px;
+  background-color: red;
+}
+
+:root {
+  font-size: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 50px;
+}
+.birinci {
+  /* height: 100vh; */
+  /* max-width: 1000px;
+  min-width: 900px; */
+  width: fit-content;
+  background-color: green;
+}
+
+.ikinci {
+  width: 16px;
+}

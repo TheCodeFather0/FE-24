@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  display: inline-block;
+  color: white;
+  margin-right: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 70px;
+  font-weight: 400;
+}

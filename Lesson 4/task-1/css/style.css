@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid #ddd;
+  width: 900px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  background-color: gray;
+  color: white;
+  padding: 5px 28.7px;
+  display: inline-block;
+}
+
+img {
+  width: 70%;
+  display: block;
+  margin: 30px auto;
+}

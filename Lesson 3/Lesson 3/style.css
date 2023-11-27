@@ -1,0 +1,102 @@
+/********************************/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  /* color: white; */
+}
+
+/* h1 {
+  background-color: black;
+  color: lime;
+} */
+
+div {
+  /* background-color: purple;
+  margin: 30px 20px 40px 70px;
+  margin: 30px;
+  padding: 20px;
+  color: #fff; */
+  /* 
+  border-top-width: 10px;
+  border-top-color: cadetblue;
+  border-top-style: solid;
+
+  border-bottom-width: 10px;
+  border-bottom-color: cadetblue;
+  border-bottom-style: double;
+
+  border-left-width: 10px;
+  border-left-color: yellow;
+  border-left-style: dashed;
+
+  border-right-width: 10px;
+  border-right-color: aqua;
+  border-right-style: dotted; */
+
+  /* border-width: 10px;
+  border-style: dashed;
+  border-color: red; */
+  /* border: 10px dashed red;
+  border-bottom: 15px solid cadetblue;
+  border-left: 5px double dodgerblue; */
+}
+/* 
+div {
+  background-color: orangered;
+  color: white;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  padding: 30px;
+  border: 20px solid blue;
+  border-radius: 50%;
+} */
+
+/* h1,
+h2 {
+  background-color: green;
+  width: 400px;
+  height: 300px;
+  padding: 40px;
+  color: white;
+  display: block;
+  display: none;  */
+/* border-radius: 50%; */
+/* } */
+
+/* a {
+  background-color: red;
+  padding: 40px;
+  margin: 40px; 
+  width: 400px; 
+  height: 300px; 
+} */
+
+/* div {
+  width: 300px;
+  height: 70px;
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  margin: 50px auto;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  display: inline-block;
+} */
+
+div {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  border: 5px solid black;
+  /* margin: 20px auto; */
+  /* display: inline-block; */
+  /* display: block; */
+}
+
+div div {
+  width: 0;
+  height: 0;
+  margin: 0;
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.header,
+.footer {
+  background-color: #000;
+  height: 70px;
+}
+
+.footer {
+  background-color: pink;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.square {
+  width: calc(100% / 3 - 100px);
+  height: 200px;
+  background-color: gray;
+  float: left;
+  margin: 20px 50px;
+  border-radius: 20px;
+}

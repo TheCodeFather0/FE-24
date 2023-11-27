@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  float: left;
+  /* display: inline-block; */
+}
+
+.clearfix {
+  clear: both;
+}
+
+.left {
+  background-color: blue;
+}
+
+.right {
+  background-color: green;
+}
+
+.content {
+  text-align: center;
+  background-color: red;
+  /* height: 500px; */
+}
+
+.textBox {
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+  border: 3px solid blue;
+  padding: 20px;
+  overflow: auto;
+  /* overflow: hidden; */
+}
