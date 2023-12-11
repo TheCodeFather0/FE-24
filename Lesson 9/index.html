@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <a href="">link1</a>
+      <a href="">link2</a>
+      <p>salam</p>
+      <a href="">link3</a><a href="">link4</a><a href="">link5</a>
+    </div>
+    <div class="left">
+      <img src="https://www.jedacademy.az/front/img/register-img.png" alt="" />
+    </div>
+    <div class="right">
+      <fieldset>
+        <legend>Qeydiyyat formu</legend>
+        <form>
+          <label for="nameInput">
+            <h3>Ad:</h3>
+            <input
+              type="text"
+              id="nameInput"
+              autocomplete="off"
+              placeholder="Jhon"
+              minlength="5"
+              maxlength="10"
+            />
+          </label>
+
+          <label for="soyadInput">
+            <h3>Soyad:</h3>
+            <input
+              type="text"
+              id="soyadInput"
+              autocomplete="off"
+              placeholder="Doe"
+              disabled
+            />
+          </label>
+
+          <label for="soyadInput">
+            <h3>Yaş:</h3>
+            <input
+              type="number"
+              id="yasİnput"
+              autocomplete="off"
+              placeholder="18"
+              min="18"
+              max="50"
+            />
+          </label>
+
+          <label for="emailİnput">
+            <h3>E-mail:</h3>
+            <input
+              type="email"
+              id="emailİnput"
+              autocomplete="off"
+              placeholder="jshondoe@example.com"
+            />
+          </label>
+
+          <label for="sifreInput">
+            <h3>Şifrə:</h3>
+            <input
+              type="password"
+              id="sifreInput"
+              autocomplete="off"
+              minlength="6"
+              maxlength="10"
+            />
+          </label>
+
+          <label for="calendarInput">
+            <h3>Doğum tarixi:</h3>
+            <input type="date" id="calendarInput" autocomplete="off" />
+          </label>
+
+          <label for="colorInput">
+            <h3>Sevdiyin rəng:</h3>
+            <input type="color" id="colorInput" autocomplete="off" />
+          </label>
+
+          <div class="genderGroup">
+            <h3>Gender:</h3>
+            <label for="kisi">
+              <span>Kisi: </span>
+              <input type="radio" id="kisi" name="gender" />
+            </label>
+            <label for="qadin">
+              <span>Qadin: </span>
+              <input type="radio" id="qadin" name="gender" />
+            </label>
+          </div>
+
+          <div class="foodGroups">
+            <h3>Sevdiyin yeməklər:</h3>
+            <label for="plov">
+              <span>Plov: </span>
+              <input type="checkbox" id="plov" />
+            </label>
+            <label for="dolma">
+              <span>dolma: </span>
+              <input type="checkbox" id="dolma" />
+            </label>
+            <label for="kebab">
+              <span>kebab: </span>
+              <input type="checkbox" id="kebab" />
+            </label>
+            <label for="makaron">
+              <span>makaron: </span>
+              <input type="checkbox" id="makaron" />
+            </label>
+          </div>
+
+          <label for="yasadiginSeher">
+            <h3>Yasadigin seher:</h3>
+            <select>
+              <optgroup label="Yaxin seherler">
+                <option value="">Baku</option>
+                <option value="">Samaxi</option>
+              </optgroup>
+
+              <optgroup label="Uzaq seherler">
+                <option value="">Naxcivan</option>
+                <option value="">Gence</option>
+                <option value="">Mingecevir</option>
+              </optgroup>
+            </select>
+          </label>
+
+          <label for="yourData">
+            <h3>Ozunuz haqqinizda melumat yazin</h3>
+            <textarea
+              rows="10"
+              id="yourData"
+              maxlength="256"
+              minlength="16"
+            ></textarea>
+          </label>
+
+          <label for="image">
+            <h3>Seklinizi daxil edin:</h3>
+            <input type="file" id="image" />
+          </label>
+          <button type="reset">Reset</button>
+          <label>
+            <input type="submit" value="Göndər" />
+          </label>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>

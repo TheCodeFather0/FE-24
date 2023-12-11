@@ -1,0 +1,104 @@
+.bas {
+  width: 400px;
+  height: 400px;
+  background-color: brown;
+  margin: 70px auto;
+  border-radius: 50%;
+}
+
+.bas .qulaq {
+  background-color: rgb(205, 115, 115);
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-top: -200px;
+
+  position: relative;
+  z-index: -1;
+}
+
+.qulaq:first-child {
+  margin-left: -50px;
+}
+
+.qulaq:last-child {
+  margin-left: 270px;
+}
+
+.qas {
+  height: 5px;
+  width: 65%;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  border-top: 9px solid;
+  border-radius: 50px 50px 0 0;
+}
+
+.goz {
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  font-size: 70px;
+}
+
+.goz:first-child {
+  left: 90px;
+}
+.goz:last-child {
+  left: 135px;
+}
+/* 
+.goz::after {
+  content: "";
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  display: block;
+  border-radius: 50%;
+  margin-top: 22.5px;
+  margin-left: 22.5px;
+} */
+
+.burun {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: black;
+  margin-left: 150px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.burun::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  display: block;
+  border-radius: 50%;
+  margin-top: 32px;
+  margin-left: -18px;
+}
+
+.burun::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  display: block;
+  border-radius: 50%;
+  margin-top: -12px;
+  margin-left: 8px;
+}
+
+.agiz {
+  height: 5px;
+  width: 40%;
+  margin: auto;
+  position: relative;
+  top: 70px;
+  border-bottom: 9px solid;
+  border-radius: 0 0 50px 50px;
+}

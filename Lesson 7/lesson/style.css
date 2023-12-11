@@ -1,0 +1,144 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 10px solid blue;
+  transition: 0.5s;
+}
+
+.box:hover {
+  background-color: green;
+  border: 5px solid orange;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.box p {
+  display: none;
+}
+
+.box:hover p {
+  display: block;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+a:link {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: 0.5s;
+  background-color: green;
+  color: white;
+}
+
+a:visited {
+  background-color: red;
+}
+
+a:active {
+  background-color: purple;
+}
+
+input:focus {
+  background-color: red;
+}
+
+input:active {
+  background-color: yellow;
+}
+
+nav a:first-child {
+  background-color: orange;
+}
+
+nav a:last-child {
+  background-color: violet;
+}
+
+nav a:nth-child(even) {
+  background-color: cadetblue;
+}
+
+nav a:nth-child(odd):hover {
+  background-color: black;
+  color: white;
+}
+
+nav a:nth-child(even):hover {
+  background-color: cyan;
+  color: black;
+}
+
+.container {
+  max-width: 900px;
+  border: 3px solid;
+  margin: 50px auto;
+}
+
+.qutu {
+  width: 275px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  margin-right: 33px;
+}
+
+.qutu:last-child {
+  margin-right: 0;
+}
+
+.price::before {
+  content: "$";
+  margin: 0 10px;
+}
+
+.price::after {
+  content: "AZN";
+  margin: 0 10px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  border-radius: 50%;
+}
+.avatar img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  height: 100%;
+}
+
+.avatar::after {
+  content: "";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: green;
+  display: block;
+  margin-top: -190px;
+  margin-left: 150px;
+  position: relative;
+  z-index: 1;
+  animation: menimanimasiyam 2s infinite;
+}
+
+@keyframes menimanimasiyam {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}

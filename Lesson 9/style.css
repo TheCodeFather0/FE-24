@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+form {
+}
+
+label {
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+input,
+select,
+textarea,
+button[type="reset"] {
+  padding: 7px;
+  width: 400px;
+  margin-top: 5px;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+
+button[type="reset"] {
+  background-color: red;
+}
+
+input:focus {
+  border-color: cadetblue;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: fit-content;
+}
+
+.genderGroup,
+.foodGroups {
+  width: 400px;
+  margin: 10px auto;
+}
+.genderGroup label,
+.foodGroups label {
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+textarea {
+  resize: none;
+}
+
+fieldset {
+  width: fit-content;
+  padding: 30px;
+  margin: auto;
+}
+
+.left,
+.right {
+  width: 45%;
+  float: left;
+}
+
+.left img {
+  display: block;
+  margin-left: 200px;
+  margin-top: 200px;
+}
+
+input {
+  color: red;
+}
+
+.box a:nth-of-type(3) {
+  color: red;
+}

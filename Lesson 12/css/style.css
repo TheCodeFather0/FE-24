@@ -1,0 +1,173 @@
+:root {
+  --primary: #252b42;
+  --secondary: #23a6f0;
+  --info: #737373;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Monttserrat/Montserrat-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  background-color: var(--primary);
+  padding-bottom: 20px;
+}
+
+header a {
+  color: #fff;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 23px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+
+.navLink {
+  margin-left: 20px;
+}
+
+.joinUsBtn,
+.bannerBtn,
+.bannerBtnOutline {
+  background-color: var(--secondary);
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid var(--secondary);
+  transition: 0.5s;
+}
+
+.joinUsBtn:hover .navIcon {
+  left: 5px;
+}
+
+.navIcon {
+  position: relative;
+  top: 2px;
+  transition: 1s;
+}
+
+.active {
+  color: red;
+}
+
+.navLink:hover {
+  transform: scale(1.1);
+  display: inline-block;
+  transition: 0.5s;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.joinUsBtn:hover {
+  background-color: transparent;
+  transform: scale(1);
+}
+
+.banner {
+  text-align: center;
+  color: white;
+  padding: 40px 0;
+  width: 50%;
+  margin: auto;
+}
+
+.banner p {
+  color: var(--secondary);
+  font-size: 20px;
+}
+
+.banner h2 {
+  margin: 20px 0;
+  font-size: 58px;
+}
+
+.banner .description {
+  color: white;
+}
+
+.bannerBtnOutline {
+  background-color: transparent;
+}
+
+.bannerBtn:hover {
+  background-color: transparent;
+}
+
+.bannerBtnOutline:hover {
+  background-color: var(--secondary);
+}
+
+.bannerBtnOutline,
+.bannerBtn {
+  margin: 20px 10px 0 10px;
+  display: inline-block;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  width: 30%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+
+.service:hover {
+  background-color: transparent;
+  transform: perspective();
+  cursor: pointer;
+}
+
+.service:hover * {
+  color: white;
+}
+
+.service h3 {
+  font-size: 1em;
+  margin: 20px 0;
+}
+
+.service h3::after {
+  content: "";
+  background: linear-gradient(to right, #e74040 20%, transparent 20%);
+  height: 3px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: block;
+}
+
+.service p {
+  font-size: 14px;
+  color: var(--info);
+}
