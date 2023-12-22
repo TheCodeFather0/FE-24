@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background: url(../images/banner.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+header nav a {
+  color: white;
+  display: inline-block;
+}
+header nav .orderBtn {
+  background-color: rgb(255, 116, 0);
+  padding: 15px 20px;
+}
+header nav .navigation {
+  display: flex;
+  align-items: center;
+}
+header nav .navigation a {
+  margin-left: 10px;
+  font-size: 14px;
+}
+header nav .navigation div:nth-child(2) {
+  border-left: 1px solid white;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+header nav .navigation div:nth-child(2) a {
+  margin-left: 20px;
+}
+header .banner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+header .banner h2,
+header .banner h4 {
+  color: rgb(255, 116, 0);
+  font-weight: 300;
+}
+header .banner h4 {
+  font-size: 30px;
+}
+header .banner h2 {
+  font-size: 60px;
+}
+header .banner .info {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 20px auto;
+}
+header .banner .info::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -40%;
+}
+header .banner .info::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -40%;
+}/*# sourceMappingURL=style.css.map */

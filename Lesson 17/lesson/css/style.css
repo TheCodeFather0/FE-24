@@ -1,0 +1,68 @@
+body {
+  background-color: red;
+}
+
+h1 {
+  color: black;
+  width: 1100px;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  margin-top: 30px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+header nav a:hover {
+  background-color: red;
+}
+
+.myButton {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: red;
+}
+
+p {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 5px solid;
+  margin: auto;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 5px solid;
+  margin: auto;
+  background-color: blue;
+}
+
+.nav {
+  background-color: blue;
+}
+.nav .nav__links {
+  display: inline-block;
+  background-color: green;
+}
+.nav .nav__links--actice {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

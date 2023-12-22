@@ -1,0 +1,74 @@
+@import "body";
+
+$mainColor: $esasreng;
+$containerSize: 1100px;
+
+h1 {
+  color: $mainColor;
+  width: $containerSize;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  margin-top: 30px;
+
+  nav {
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      display: inline-block;
+
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}
+
+@mixin duymeler {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.myButton {
+  @include duymeler;
+  color: red;
+}
+
+p {
+  @include duymeler;
+}
+
+@mixin box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 5px solid;
+  margin: auto;
+}
+.box1 {
+  @include box;
+}
+
+.box2 {
+  //   @extend .box1;
+  @include box;
+  background-color: blue;
+}
+
+.nav {
+  background-color: blue;
+
+  .nav__links {
+    display: inline-block;
+    background-color: green;
+  }
+  .nav__links--actice {
+    background-color: red;
+  }
+}
